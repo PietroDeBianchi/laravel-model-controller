@@ -16,7 +16,7 @@ class PageController extends Controller
         return view('home', compact('movies'));
     }
 
-    public function movie()
+    public function movies()
     {
         // push the return to from web.php
         return view('movies');
