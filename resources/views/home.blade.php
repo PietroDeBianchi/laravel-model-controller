@@ -7,6 +7,10 @@
 {{-- chaghe the 'contents' of app.blade (also html elements) --}}
 @section('contents')
     <div id="home-container">
-        <h3>All Your Favourte Yummies!</h3>
+        <ul>
+            @foreach ($movies as $movie)
+                <li>{{$movie->title}}</li>
+            @endforeach
+        </ul>
     </div>
 @endsection

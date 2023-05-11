@@ -13,6 +13,6 @@ class PageController extends Controller
         // take all the movies from db_movies in App/Models/Movie
         $movies = Movie::all();
         // push the return to from web.php
-        return view('home');
+        return view('home', compact('movies'));
     }
 }
