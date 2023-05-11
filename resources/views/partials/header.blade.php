@@ -10,10 +10,10 @@
                     <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Movies</a>
+                    <a class="nav-link" href="movies">Movies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Series</a>
+                    <a class="nav-link" href="series">Series</a>
                 </li>
             </ul>
         </div>

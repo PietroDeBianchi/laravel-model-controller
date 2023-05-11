@@ -15,4 +15,16 @@ class PageController extends Controller
         // push the return to from web.php
         return view('home', compact('movies'));
     }
+
+    public function movie()
+    {
+        // push the return to from web.php
+        return view('movies');
+    }
+
+    public function series()
+    {
+        // push the return to from web.php
+        return view('series');
+    }
 }

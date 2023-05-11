@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 // Route::get from App\Http\Controllers\Guest -> PageController.php
 Route::get('/', [PageController::class, 'index'])->name('home');
+
+Route::get('/movies', [PageController::class, 'index'])->name('movies');
+
+Route::get('/series', [PageController::class, 'index'])->name('series');
