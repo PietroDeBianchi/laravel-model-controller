@@ -11,3 +11,39 @@ body {
         text-decoration: none;
     }
 }
+
+
+header {
+    background-color: rgb(47, 42, 42);
+
+    .navbar-brand {
+        font-size: 28px;
+        font-weight: 600;
+        color: rgb(219, 18, 18);
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.navbar-nav {
+    a {
+        color: rgb(181, 180, 180);
+
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+main {
+    #home-container {
+
+        .card {
+            width: calc((100%/5) - 20px);
+        }
+    }
+}
